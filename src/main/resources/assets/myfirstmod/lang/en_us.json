@@ -2,5 +2,6 @@
   "item.myfirstmod.banana": "Banana",
   "item.myfirstmod.coconut": "Coconut",
 
-  "block.myfirstmod.palm_log": "Palm Log"
+  "block.myfirstmod.palm_log": "Palm Log",
+  "block.myfirstmod.palm_planks": "Palm Planks"
 }

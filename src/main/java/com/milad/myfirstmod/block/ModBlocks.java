@@ -19,6 +19,9 @@ public class ModBlocks {
     public static final Block PALM_LOG = registerBlock("palm_log",
             new Block(AbstractBlock.Settings.create().strength(2.0f).resistance(2.0f).hardness(2.0f).sounds(BlockSoundGroup.WOOD).burnable()));
 
+    public static final Block PALM_PLANKS = registerBlock("palm_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0f).resistance(2.0f).hardness(2.0f).sounds(BlockSoundGroup.WOOD).burnable()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(MyFirstMod.MOD_ID, name), block);
@@ -34,6 +37,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(PALM_LOG);
+            entries.add(PALM_PLANKS);
         });
     }
 }
