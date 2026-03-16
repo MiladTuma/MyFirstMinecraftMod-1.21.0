@@ -3,5 +3,8 @@
   "item.myfirstmod.coconut": "Coconut",
 
   "block.myfirstmod.palm_log": "Palm Log",
-  "block.myfirstmod.palm_planks": "Palm Planks"
+  "block.myfirstmod.palm_planks": "Palm Planks",
+
+  "itemgroup.myfirstmod.my_first_mod_items": "My First Mod Items",
+  "itemgroup.myfirstmod.my_first_mod_blocks": "My First Mod Block"
 }
